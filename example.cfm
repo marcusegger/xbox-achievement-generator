@@ -11,7 +11,7 @@
 <cfif cgi.request_method NEQ "post">
 	<form action="" method="post" name="achievement">
 		Achievement Text: 
-		<input id="achievetext" name="achievetext" type="text" size="55" /> 
+		<input id="achievetext" name="achievetext" type="text" size="55" placeholder="your text" required /> 
 		<input type="submit" value="generate" />	
 	</form>	
 <cfelse>
